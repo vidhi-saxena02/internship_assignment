@@ -1,0 +1,49 @@
+img {
+  width: 40px;
+  height: 40px;
+}
+
+h1 {
+  font-size: medium;
+}
+p {
+  font: 1em sans-serif;
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.detail {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-items: center;
+  margin-top: 10px;
+  gap: 10;
+}
+
+.btn {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.card {
+  margin-left: 30px;
+}
+
+.line {
+  width: 2px;
+  cursor: pointer;
+  position: absolute;
+  color: black;
+  background-color: black;
+  height: 100%;
+}
+
+.line:hover {
+  background-color: blue;
+}
+
+.start {
+  position: relative;
+  margin-left: 20px;
+}
